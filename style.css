@@ -1,0 +1,72 @@
+body {
+	background-color: #eeeeff;
+	color: black;
+	text-align: center;
+	font-family: "Verdana", "Deja Sans", "Tahoma", "Arial", "Helvetica";
+	font-size: 9pt;
+}
+
+div.wrapper {
+	background-color: #ffffff;
+	height: auto;
+	border-color: #cccccc;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	margin: 20px 100px 20px 100px;
+}
+
+hr {
+	border-color: #cccccc;
+	border-width: 1px 0px 0px 0px;
+	border-style: solid;
+}
+
+div.body {
+	margin: 30px 20px 30px 20px;
+	border-style: none;
+	border-width: 0px 0px 0px 0px;
+	background: transparent;
+	text-align: justify;
+}
+
+img {
+	border-style: none;
+}
+
+a, a:link {
+	color: #0040ff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0080ff;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #4c6098;
+	text-decoration: none;
+}
+
+p.footer {
+	font-weight: bold;
+	font-size: 8pt;
+	text-align: center;
+}
+
+table.logo, tr.logo, td.logo {
+	border-style: none;
+	border-width: 0px 0px 0px 0px;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	background: transparent;
+	vertical-align: middle;
+}
+
+td.logoright, div.logoright {
+	border-style: none;
+	border-width: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background: transparent;
+	vertical-align: middle;
+}
