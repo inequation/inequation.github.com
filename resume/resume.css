@@ -19,6 +19,22 @@ body
 	text-align: justify;
 }
 
+a, a:link {
+	color: #0040ff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #0080ff;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #4c6098;
+	text-decoration: none;
+}
+
 table
 {
 	margin: 0cm;
