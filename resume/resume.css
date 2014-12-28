@@ -14,7 +14,7 @@
 
 body
 {
-	font-family: "Purista", "Verdana", "Deja Sans", "Tahoma", "Arial", "Helvetica";
+	font-family: "Purista", "SelenaRegular", "Verdana", "Deja Sans", "Tahoma", "Arial", "Helvetica";
 	font-size: 10pt;
 	text-align: justify;
 }
@@ -135,7 +135,6 @@ h4
 p.blurb
 {
 	margin-bottom: 0.25cm;
-	font-family: "Purista", "Verdana", "Deja Sans", "Tahoma", "Arial", "Helvetica";
 	font-size: 10pt;
 	text-align: justify;
 }
@@ -166,7 +165,7 @@ td.xp-content
 	font-size: 13pt;
 }
 
-td.xp-dates
+td.xp-dates, td.skill-level
 {
 	width: 28%;
 	vertical-align: middle;
@@ -187,20 +186,6 @@ td.skill-name
 	border: none;
 	padding: 0cm;
 	margin: 0.1cm;
-}
-
-td.skill-level
-{
-	width: 28%;
-	vertical-align: middle;
-	border: none;
-	padding: 0cm;
-	margin: 0.1cm;
-	font-family: "Bebas Neue", "Impact", sans;
-	text-transform: uppercase;
-	font-size: 13pt;
-	font-weight: normal;
-	color: #808080;
 }
 
 ul
