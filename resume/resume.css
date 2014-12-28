@@ -7,16 +7,28 @@
 			url('websymbolsligaregular.svg#web_symbols_ligaregular') format('svg');
 }
 
-@page
-{
-	margin: 1.5cm;
-}
-
 body
 {
 	font-family: "Purista", "SelenaRegular", "Verdana", "Deja Sans", "Tahoma", "Arial", "Helvetica";
-	font-size: 10pt;
 	text-align: justify;
+}
+
+@media screen
+{
+	body
+	{
+		margin: 2cm;
+		font-size: 12pt;
+	}
+}
+
+@media print
+{
+	body
+	{
+		margin: 1.5cm;
+		font-size: 10pt;
+	}
 }
 
 a, a:link {
@@ -80,23 +92,8 @@ h1
 	text-align: justify;
 	font-family: "Bebas Neue", "Impact", sans;
 	text-transform: uppercase;
-	font-size: 32pt;
+	font-size: 28pt;
 	font-weight: normal;
-}
-
-@media print
-{
-	h1
-	{
-		color: #ffffff !important;
-		background-color: #000000 !important;
-	}
-	
-	h2
-	{
-		color: #ffffff !important;
-		background-color: #000000 !important;
-	}
 }
 
 h2
@@ -107,7 +104,7 @@ h2
 	color: #ffffff;
 	font-family: "Bebas Neue", "Impact", sans;
 	text-transform: uppercase;
-	font-size: 28pt;
+	font-size: 24pt;
 	font-weight: normal;
 }
 
@@ -135,8 +132,6 @@ h4
 p.blurb
 {
 	margin-bottom: 0.25cm;
-	font-size: 10pt;
-	text-align: justify;
 }
 
 td.left-pane
@@ -156,7 +151,7 @@ td.right-pane
 
 td.xp-content
 {
-	width: 72%;
+	width: auto;
 	vertical-align: top;
 	border: none;
 	padding: 0cm;
@@ -167,7 +162,7 @@ td.xp-content
 
 td.xp-dates, td.skill-level
 {
-	width: 28%;
+	width: 35%;
 	vertical-align: middle;
 	border: none;
 	padding: 0cm;
@@ -181,7 +176,7 @@ td.xp-dates, td.skill-level
 
 td.skill-name
 {
-	width: 72%;
+	width: auto;
 	vertical-align: middle;
 	border: none;
 	padding: 0cm;
@@ -203,7 +198,6 @@ ul
 	text-align: center;
 	margin-top: 0.1cm;
 	font-family: "Web Symbols Liga";
-	font-size: 10pt;
 }
 
 .contact-handle
@@ -211,9 +205,7 @@ ul
 	width: 89%;
 	border: 0cm;
 	padding: 0cm;
-	text-align: justify;
 	margin-top: 0.1cm;
-	font-size: 10pt;
 }
 
 #qr-code
@@ -231,6 +223,7 @@ ul
 
 @media print
 {
+	
 	h1
 	{
 		color: #ffffff !important;
