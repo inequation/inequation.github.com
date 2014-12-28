@@ -70,6 +70,14 @@ td
 	border: 0cm;
 }
 
+img.qr-code
+{
+	width: 68px;
+	height: 68px;
+	border: 0px;
+	vertical-align: top;
+}
+
 img
 {
 	 text-align: left;
@@ -206,14 +214,6 @@ ul
 	border: 0cm;
 	padding: 0cm;
 	margin-top: 0.1cm;
-}
-
-#qr-code
-{
-	width: 68px;
-	height: 68px;
-	border: 0px;
-	vertical-align: top;
 }
 
 #page-break
