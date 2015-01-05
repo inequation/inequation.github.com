@@ -1,12 +1,3 @@
-@font-face
-{
-	font-family: "Web Symbols Liga";
-	src:	url('websymbolsligaregular.eot') format('embedded-opentype'),
-			url('websymbolsligaregular.woff') format('woff'),
-			url('websymbolsligaregular.ttf') format('truetype'),
-			url('websymbolsligaregular.svg#web_symbols_ligaregular') format('svg');
-}
-
 body
 {
 	font-family: "Purista", "SelenaRegular", "Verdana", "Deja Sans", "Tahoma", "Arial", "Helvetica";
@@ -205,7 +196,8 @@ ul
 	padding: 0cm;
 	text-align: center;
 	margin-top: 0.1cm;
-	font-family: "Web Symbols Liga";
+	font-family: "FontAwesome";
+	font-size: 1.5em;
 }
 
 .contact-handle
