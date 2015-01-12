@@ -2,14 +2,16 @@ body
 {
 	font-family: "Purista", "SelenaRegular", "Verdana", "Deja Sans", "Tahoma", "Arial", "Helvetica";
 	text-align: justify;
+	font-size: 10pt;
 }
 
 @media screen
 {
 	body
 	{
-		margin: 2cm;
-		font-size: 12pt;
+		margin: 3%;
+		zoom: 150%;
+		line-height: 150%;
 	}
 }
 
@@ -18,7 +20,6 @@ body
 	body
 	{
 		margin: 1.5cm;
-		font-size: 10pt;
 	}
 }
 
@@ -84,7 +85,7 @@ p
 
 h1
 {
-	margin-top: -0.3cm;
+	margin-top: 0cm;
 	margin-bottom: 0cm;
 	background: #000000;
 	color: #ffffff;
@@ -93,6 +94,7 @@ h1
 	text-transform: uppercase;
 	font-size: 28pt;
 	font-weight: normal;
+	line-height: 87%;
 }
 
 h2
@@ -105,6 +107,7 @@ h2
 	text-transform: uppercase;
 	font-size: 24pt;
 	font-weight: normal;
+	line-height: 87%;
 }
 
 h3
