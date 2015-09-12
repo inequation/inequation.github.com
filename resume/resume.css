@@ -1,6 +1,6 @@
 body
 {
-	font-family: "Purista", "SelenaRegular", "Verdana", "Deja Sans", "Tahoma", "Arial", "Helvetica";
+	font-family: "SelenaRegular", "Verdana", "Deja Sans", "Tahoma", "Arial", "Helvetica";
 	text-align: justify;
 	font-size: 10pt;
 }
@@ -90,7 +90,7 @@ h1
 	background: #000000;
 	color: #ffffff;
 	text-align: justify;
-	font-family: "Bebas Neue", "Oswald", "Impact", sans;
+	font-family: Oswald", "Impact", sans;
 	text-transform: uppercase;
 	font-size: 23pt;
 	font-weight: normal;
@@ -103,7 +103,7 @@ h2
 	margin-bottom: 0cm;
 	background: #000000;
 	color: #ffffff;
-	font-family: "Bebas Neue", "Oswald", "Impact", sans;
+	font-family: "Oswald", "Impact", sans;
 	text-transform: uppercase;
 	font-size: 20pt;
 	font-weight: normal;
@@ -114,7 +114,7 @@ h3
 {
 	margin-top: 0cm;
 	margin-bottom: 0cm;
-	font-family: "Bebas Neue", "Oswald", "Impact", sans;
+	font-family: "Oswald", "Impact", sans;
 	text-transform: uppercase;
 	font-size: 14pt;
 	font-weight: bold;
@@ -125,7 +125,7 @@ h4
 {
 	margin-top: 0cm;
 	margin-bottom: 0cm;
-	font-family: "Bebas Neue", "Oswald", "Impact", sans;
+	font-family: "Oswald", "Impact", sans;
 	text-transform: uppercase;
 	font-size: 10pt;
 	font-weight: normal;
@@ -159,7 +159,7 @@ td.xp-content
 	border: none;
 	padding: 0cm;
 	margin: 0.1cm;
-	font-family: "Bebas Neue", "Oswald", "Impact", sans;
+	font-family: "Oswald", "Impact", sans;
 	text-transform: uppercase;
 	font-size: 13pt;
 }
@@ -171,7 +171,7 @@ td.xp-dates, td.skill-level
 	border: none;
 	padding: 0cm;
 	margin: 0.1cm;
-	font-family: "Bebas Neue", "Oswald", "Impact", sans;
+	font-family: "Oswald", "Impact", sans;
 	text-transform: uppercase;
 	font-size: 10pt;
 	font-weight: normal;
