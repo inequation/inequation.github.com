@@ -239,3 +239,11 @@ ul
 		page-break-after: always !important;
 	}
 }
+
+@media not print
+{
+	#page-break
+	{
+		display: none;
+	}
+}
